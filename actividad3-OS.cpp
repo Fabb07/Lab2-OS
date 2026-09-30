@@ -9,9 +9,9 @@ int main() {
     int miArray[5] = {10, 20, 30, 40, 50};
 
     // 2. Utilizar punteros para acceder a los elementos del array y modificar su contenido
-    int* punteroArray = miArray; // El puntero apunta al primer elemento del array
+    int* punteroArray = miArray;
 
-    // Modificamos el segundo elemento (indice 1) y el cuarto elemento (indice 3) usando el puntero
+    // Modificamos el segundo elemento y el cuarto elemento usando el puntero
     *(punteroArray + 1) = 99; 
     *(punteroArray + 3) = 88; 
 

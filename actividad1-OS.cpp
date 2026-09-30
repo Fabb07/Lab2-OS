@@ -1,5 +1,4 @@
 //Lab2-OS.cpp
-
 #include <iostream>
 
 using namespace std;

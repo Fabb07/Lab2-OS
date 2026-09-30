@@ -17,7 +17,7 @@ int main() {
     int* variableHeap = new int;
 
     // 3. CODE: Las instrucciones de las funciones se guardan en el segmento de texto/codigo
-    // Hacemos un cast a (void*) para que cout imprima la direccion en lugar de intentar evaluar la funcion
+    // Hacemos un cast a (void*) para que cout imprima la direccion 
     
     cout << "--- Distribucion de Memoria en C++ ---" << endl;
     cout << "Direccion en el Stack (variable local): " << &variableStack << endl;
@@ -25,7 +25,6 @@ int main() {
     cout << "Direccion en el Code (funcionPrueba):   " << (void*)funcionPrueba << endl;
     cout << "Direccion en el Code (funcion main):    " << (void*)main << endl;
 
-    // Liberamos la memoria del heap
     delete variableHeap;
 
     return 0;
